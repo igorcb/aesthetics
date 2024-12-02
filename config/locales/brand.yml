@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      brand:
+        one: Marca
+        other: Marcas
+
+    attributes:
+      brand:
+        name: Nome
+        observation: Observação
