@@ -10,7 +10,8 @@ gem "stimulus-rails", "1.3.4"
 gem "tailwindcss-rails", "3.1.0"
 gem "jbuilder", "2.13.0"
 gem "redis", "5.3.0"
-gem "simple_form-tailwind"
+gem "simple_form-tailwind", "0.1.1"
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -25,7 +26,7 @@ gem "logger"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
-  gem "brakeman", require: false
+  gem "brakeman", "7.0", require: false
   gem "rubocop-rails-omakase", require: false
 end
 
