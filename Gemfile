@@ -9,7 +9,7 @@ gem "turbo-rails", "2.0.11"
 gem "stimulus-rails", "1.3.4"
 gem "tailwindcss-rails", "3.1.0"
 gem "jbuilder", "2.13.0"
-gem "redis", "5.3.0"
+gem "redis", "5.4.0"
 gem "simple_form-tailwind", "0.1.1"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
